@@ -1,0 +1,52 @@
+* {
+  background: bisque;
+}
+
+h1 {
+  color: purple;
+}
+
+p,
+li {
+  color: green;
+}
+
+li {
+  list-style: none;
+}
+
+li.special,
+span.special {
+  color: rgb(255, 91, 236);
+  font-weight: bold;
+}
+
+li em {
+  color: royalblue;
+}
+
+h1 + p {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body h1 + p .special {
+  color: plum;
+  background-color: cyan;
+  padding: 5px;
+}
