@@ -1,0 +1,33 @@
+/* 기본 요소 스타일링 처리 */
+/* =================================================== */
+
+body {
+  font: 1em/150% Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 33em;
+}
+
+@media (max-width: 1200px) {
+  /* 1200px 이상 환경에서는 전역 
+   여백 크기를 더욱 높힙니다. */
+  body {
+    padding: 12px 14px;
+  }
+}
+
+/* DOM에 중첩된 특정 요소 처리 */
+
+div,
+p,
+#id:first-child {
+  background-color: red;
+}
+/* 
+.special {
+  color: blue;
+} */
+
+div p + p {
+  padding-top: 0;
+}
