@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.exterio-body {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: purple;
+  background-color: pink;
+  border: 1px solid #95959;
+}
+
+p {
+  color: red;
+  font: 24px bold;
+  font-weight: bold;
+}
