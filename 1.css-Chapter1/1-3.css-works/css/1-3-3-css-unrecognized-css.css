@@ -1,0 +1,10 @@
+p {
+  font-weight: bold;
+  colour: blue; /* color  속성의 잘못된 철자 */
+  font-size: 200%;
+}
+
+.box {
+  width: 500px;
+  width: calc(100% - 50px);
+}
